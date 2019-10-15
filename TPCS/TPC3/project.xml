@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Taliban/Desktop/pri/aulas/notas/templateDTD.dtd">
+<pr>
+    <meta>
+        <keyname>TPC3</keyname>
+        <title>Stylesheets de XSL</title>
+        <subtitle>Geração de websites a partir de ficheiros XSL</subtitle>
+        <bdate>06/10/19</bdate>
+        <edate>20/10/10</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>a67713</identifier>
+            <name>Manuel Moreno</name>
+            <email>a67713@alunos.uminho.pt</email>
+            <photo path=""/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>O XSL é uma linguagem de marcação em XML utilizada para criar ficheiros XSL que 
+        definem como os ficheiros XML serão apresentados pelo browser ou aplicativos que o suportam.
+        Esta linguagem, utilizada o XPATH como forma de acessar ou referir partes de um documento XML.
+        </p>
+        <p>
+         A partir de um documento de entrada e utilizando as definições de um ficheiro XSLT, é possivel mudar a representação
+         nesse ficheiro utilizando outros estilos como por exemplo HTML. Estas transformações, consistem na travessia
+         de todos os nodos listados e a cada nodo percorrido, é aplicado uma regra. Depois de formar todas as regras, é gerado
+         o ficheiro com a representação definida.
+        </p>
+        <p>
+            Neste Project Record, é necessário a criação de um ficheiro HTML com o nome Project Record, gerado
+            a partir de uma stylesheet XSLT e tem como documento de entrada, o ficheiro em XML gerado pelo template DTD
+            desenvolvido na aula.
+            A seguir, utilizando o mesmo processo anterior, é realizado o exercicio da geração de um website que contenha
+            todos os arqueossitios fornecidos por um ficheiro XML.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="project.html">Project Record</deliverable>
+        <deliverable path="project.xml">Project Record (XML)</deliverable>
+        <deliverable path="Template.dtd">Project Record (DTD)</deliverable>
+        <deliverable path="project.xslt">Project Record (XSLT)</deliverable>
+        <deliverable path="arqueo.xslt">Arquessitios (XSLT)</deliverable>
+        <deliverable path="arqueo.html">Website Arqueossitios</deliverable>
+    </deliverables>
+</pr>

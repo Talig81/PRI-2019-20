@@ -1,0 +1,16 @@
+STYLESHEET DO PR 
+
+XSL:TEMPLATE MATCH XREF
+<a href="{@url}">
+<xsl:value-of select="."/>
+</a>
+
+</xsl:template>
+
+
+TPC3: 
+	pr.xml
+	pr.xsl
+	pr.html
+	arq.xsl
+	[WEBSITE]

@@ -1,0 +1,11 @@
+(a) //ARQELEM/IDENTI[../CONCEL[text()=" Amares "]]
+
+(b) distinct-values(//CONCEL[normalize-space(text())])
+
+(c) //DESCRI[normalize-space(../CONCEL[text()=" Montalegre "])]
+
+(d) count(//CONCEL[text()=" Amares "])
+
+(e) count(//ARQELEM/IDENTI[..//LIGA/@TERMO = "castro"])
+
+

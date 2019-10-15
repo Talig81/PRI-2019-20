@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT precord (header,workteam,abstract,deliverables) >
+<!ELEMENT header (key_name, title, subtitulo, bdate,endate,supervisor?) >
+<!ELEMENT key_name (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitulo (#PCDATA) >
+<!ELEMENT bdate (#PCDATA) >
+<!ELEMENT endate (#PCDATA) >
+<!ELEMENT supervisor (links) >
+<!ELEMENT workteam (member)* >
+<!ELEMENT member (aluno, numero, email) >
+<!ELEMENT aluno (#PCDATA) >
+<!ELEMENT numero (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT abstract (#PCDATA) >
+<!ELEMENT deliverables (links)* >
+<!ELEMENT links (#PCDATA) >
+<!ATTLIST links
+             href CDATA #REQUIRED>

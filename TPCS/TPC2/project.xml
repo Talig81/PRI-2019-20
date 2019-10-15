@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precord SYSTEM "file:/C:/Users/Taliban/Desktop/pri/TPCS/TPC2/tpc2.dtd">
+<precord>
+    <header>
+        <key_name>TPC 2</key_name>
+        <title>Project Record 2</title>
+        <subtitulo>Queries X-Path</subtitulo>
+        <bdate>30/09/2010</bdate>
+        <endate>10/10/2010</endate>
+        <supervisor>
+            <links href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</links>
+        </supervisor>
+    </header>
+    <workteam>
+        <member>
+            <aluno>Manuel Maria Furtado Cunha Miranda Moreno</aluno>
+            <numero>a67713</numero>
+            <email>a67713@alunos.uminho.pt</email>
+        </member>
+    </workteam>
+    <abstract>
+        Este project record, consiste na realização de um documento DTD (Document Type Definition) que 
+        tem como objetivo a definição de uma estrutura XML para que seja possível, fazer uma validação
+        de documentos de este tipo de maneira mais eficaz e mais fácil.
+        Para além do documento, também é necessário gerar o ficheiro XML e preenchê-lo com os devidos parametros.
+        
+        Depois, será necessário responder a queries de diferentes ficheiros de XML utilizando o XPATH. Esta
+        linguagem de rotas, permite-nos navegar muito facilmente através dos nodos XML. 
+        
+        Por fim, este project record será apresentado numa página HTML com a estrutura semelhante ao ficheiro XML
+        gerado.
+    </abstract>
+    <deliverables>
+        <links href="project.html">Project Record (HTML)</links>
+        <links href="project.xml">Project Record (XML)</links>
+        <links href="project.dtd">Project Record (DTD)</links>
+        <links href="agendaXPATH.txt">Agenda (XPATH)</links>
+        <links href="arqueossitiosXPATH.txt">Arqueossitios (XPATH)</links>
+    </deliverables>
+</precord>
