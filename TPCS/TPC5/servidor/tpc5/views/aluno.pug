@@ -1,0 +1,38 @@
+extends layout
+
+block content
+   .w3-container
+        .w3-card-4
+            header.w3-container.w3-purple
+              h1 Gestor de Aluno
+            .w3-container     
+                form.w3-container(action='/alunos/'+ aluno.id +'/notas' method='POST' id='myform1')       
+                table.w3-table-all
+                  tr
+                    th Id
+                    th Nome
+                    th Adicionar nota
+                    th Apagar nota
+                  tr
+                    td= aluno.id
+                    td= aluno.nome
+                    td
+                        input(type="text" name="notas" form='myform1') 
+                        input.w3-btn.w3-blue-grey(type='submit' align="center" value='Adicionar Nota' form='myform1')
+                    td
+                        input(type="text" name="notas")
+                        button.w3-button.w3-square.w3-blue-grey(onclick="apagarItem('"+aluno.id+"')") Apagar
+            hr(style={'border': '5px solid purple'})
+            .w3-container
+                h3 Notas
+                table.w3-table-all
+                    tr
+                        th Identificador
+                        th Nota
+                    - var n = 0;
+                    each nota in lista
+                        tr
+                            td= n++
+                            td= nota
+            footer.w3-container.w3-teal
+                address Gerado por M.Moreno
