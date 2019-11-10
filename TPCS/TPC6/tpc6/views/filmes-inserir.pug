@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Inserção de um Filme
+        form.w3-container(action="/api/filmes" method="post")
+            label Identificador
+            input.w3-container(type="text" name="_id")
+            label Titulo
+            input.w3-container(type="text" name="title")
+            label Ano
+            input.w3-container(type="text" name="year")
+            label Elenco
+            input.w3-container(type="text" name="cast")
+            label Generos
+            input.w3-container(type="text" name="genres")
+            input.w3-container(type="submit" align="center" value="Adicionar")
