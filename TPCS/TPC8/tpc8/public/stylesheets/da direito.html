@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0024)https://www.editpad.org/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Edit Pad - Online Text Editor &amp; Wordpad for Notes</title>
+<meta name="description" content="Edit Pad is a simple online text editor to edit plain text.">
+<script type="text/javascript">
+<!--
+if (window.screen.width < 800)
+{
+  window.location = "https://m.editpad.org";
+}
+//mac sniffer because copy/cut doesn't work on mac
+function isNotMac() 
+{
+  var mac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
+  var cutCopyMenu = "";
+
+  if(mac){
+    cutCopyMenu = "";
+  	}
+  else{
+    cutCopyMenu = "<a class=q href=\"javascript:void(0);\" onClick=\"javascript:document.querySelector('#text').select();javascript:document.execCommand('copy');\" title=\"Copy to Clipboard\">Copy</a> or <a class=q href=\"javascript:void(0);\" onClick=\"javascript:document.querySelector('#text').select();javascript:document.execCommand('cut');\" title=\"Cut to Clipboard\">Cut</a><br>";
+	}
+	
+	document.writeln(cutCopyMenu);
+}
+ //-->
+</script>
+<link rel="canonical" href="https://www.editpad.org/">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.editpad.org/">
+<meta property="og:image" content="https://www.editpad.org/images/edit-pad.jpg">
+<script language="JavaScript" type="text/javascript">
+var default_text = "Welcome to EditPad.org - your online plain text editor. Enter or paste your text here. To download and save it, click on the button below.";
+var doWarn = 1;
+</script>
+<script language="JavaScript" src="./da direito_files/tabs.js.download" type="text/javascript"></script>
+<script language="JavaScript" src="./da direito_files/func.js.download" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style></style></head>
+<body text="#000000" bgcolor="#FFFFFF" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" onload="document.textform.text.focus();doWarn=1;"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-block cc-bottom cc-right cc-color-override-688238583 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses cookies to ensure you get the best experience on our website. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.editpad.org/about.html" target="_blank">Learn more</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got it!</a></div><!--googleon: all--></div>
+<form action="https://www.editpad.org/download.html" method="post" name="textform" id="textform" target="download_frame">
+<textarea cols="100" rows="30" name="text" id="text" style="background-color: rgb(238, 232, 170); border: 1px dotted rgb(0, 0, 0); width: 1366px; height: 568px; margin: 0px;" onclick="if(document.textform.text.value==default_text)document.textform.text.value=&#39;&#39;" onkeydown="return insertTab(event,this);" onkeyup="return insertTab(event,this);" onkeypress="return insertTab(event,this);">Welcome to EditPad.org - your online plain text editor. Enter or paste your text here. To download and save it, click on the button below.</textarea>
+<input name="timestarted" type="hidden" value="2019-11-22_12-38">
+&nbsp;<input type="submit" name="submitted" id="submitted" value="Download &amp; Save" title="Download &amp; Save" onclick="doWarn=1;">&nbsp;<a href="javascript:void(0);" class="q" onclick="this.blur();return togDisp(event);" title="More Options" rel="nofollow">more&nbsp;»</a><span name="more" id="more" style="display:none;position:absolute;background:#fff;border:1px solid #369;margin:-120px 1.5ex;padding:0 0 .5ex .8ex;width:16ex;line-height:1.9;z-index:1000" onclick="stopB(event);"><a href="javascript:void(0);" onclick="return togDisp(event);" title="Close"><img border="0" src="./da direito_files/x2.gif" width="12" height="12" alt="Close menu" align="right" class="cb"></a><script language="JavaScript">isNotMac();</script><a class="q" href="javascript:void(0);" onclick="javascript:document.querySelector(&#39;#text&#39;).select();javascript:document.execCommand(&#39;copy&#39;);" title="Copy to Clipboard">Copy</a> or <a class="q" href="javascript:void(0);" onclick="javascript:document.querySelector(&#39;#text&#39;).select();javascript:document.execCommand(&#39;cut&#39;);" title="Cut to Clipboard">Cut</a><br>
+<a class="q" href="javascript:void(0);" onclick="javascript:countWords();" title="Word Count">Word Count</a><br><a class="q" href="javascript:void(0);" onclick="javascript:countChars();" title="Character Count">Character Count</a><br><a class="q" href="javascript:void(0);" onclick="javascript:checkForPopUp();" title="Open As PopUp">Open As PopUp</a><br><a href="https://www.editpad.org/" target="_blank" class="q" title="Open a new EditPad.org">New Window</a><br><a href="https://www.editpad.org/about.html" target="_blank" class="q" title="Privacy"><b>Privacy »</b></a></span>
+<script type="text/javascript">
+function qs(el){if(window.RegExp&&window.encodeURIComponent){var ue=el.href,qe=encodeURIComponent(document.f.q.value);if(ue.indexOf("q=")!=-1){el.href=ue.replace(new RegExp("q=[^&$]*"),"q="+qe);}else{el.href=ue+"&q="+qe;}}return 1;}
+function togDisp(e){stopB(e);var elems=document.getElementsByName('more');for(var i=0;i<elems.length;i++){var obj=elems[i],dp="";if(obj.style.display==""){dp="none";doWarn=1;}obj.style.display=dp;}return false;}
+function stopB(e){if(!e)e=window.event;e.cancelBubble=true;}
+document.onclick=function(event){var elems=document.getElementsByName('more');if(elems[0].style.display==""){togDisp(event);}}
+</script><span align="right" style="position:fixed;bottom:12px;right:2px;width:120px;font-family:arial;font-size:11px;"><a href="https://www.editpad.org/about.html" target="_blank" title="Privacy Policy" rel="nofollow"><img src="./da direito_files/editpad.gif" alt="Edit Pad - Free Online Text Editor" width="16" height="16" hspace="2" vspace="0" border="0" align="bottom"></a>Edit Pad © 2019</span></form>
+<script type="text/javascript">
+<!--
+function sizeIt()
+{
+	var agent = navigator.userAgent.toLowerCase();
+	//for msie
+	if(agent.indexOf("msie") !== -1)
+	{
+		bwidth=document.body.offsetWidth;
+		bheight=document.body.offsetHeight;
+		document.forms[0].elements[0].style.width = (bwidth-20);
+		document.forms[0].elements[0].style.height = (bheight-40);
+	}
+	//for mozilla + others
+	else
+	{
+		bwidth=innerWidth;
+		bheight=innerHeight;
+		document.forms[0].elements[0].style.width = (bwidth);
+		document.forms[0].elements[0].style.height = (bheight-40);
+	}
+
+}
+sizeIt();
+window.onresize=sizeIt;
+//-->
+</script><noscript>Please activate Javascript in your browser and <a href="/" title="Refresh">revisit</a> this page.
+</noscript><script language="JavaScript" src="./da direito_files/warn.js.download" type="text/javascript"></script><iframe src="./da direito_files/download.html" name="download_frame" id="download_frame" width="0" height="0" marginwidth="0" marginheight="0" style="height:1px;width:1px;margin:0px;display:none;">Please revisit this page with a browser that supports frames.</iframe>
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-477189-13', 'auto');
+ga('set', 'anonymizeIp', true); 
+ga('send', 'pageview');
+</script>
+<script async="" src="./da direito_files/analytics.js.download"></script>
+
+<link rel="stylesheet" type="text/css" href="./da direito_files/cookieconsent.min.css">
+<script src="./da direito_files/cookieconsent.min.js.download"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "href": "https://www.editpad.org/about.html"
+  }
+})});
+//PT</script>
+
+
+</body></html>

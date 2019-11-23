@@ -1,0 +1,62 @@
+Aula 2 - [PRI] - 30/09/2019
+
+-- Formato TPC -- 
+
+- zip TPC:
+	- [ ] pr.xml
+	- [ ] pr.dtd;
+	- [ ] arq.txt;
+	- [ ] agenda.txt;
+
+- Header
+	- [ ] subtitulo: é opcional
+	- [ ] supervisor: é um link
+
+- Workteam
+	 - [ ]  nome,id,email
+
+- Abstract
+	- [ ] poder aparecer bold, italics e links
+
+- Deliverables
+	- [ ] unordered list
+
+-  ? App que nao siga o modelo OAIS
+
+- "XML e XSL da teoria à prática"
+
+-- // -- XPATH -- \\ --
+
+//doc/tit -> Retorna todos os titulos filhos de doc
+
+//file/@t -> Retorna todos os atributos 't' de file
+
+//doc[3]/tit -> Retorna o titulo do 3º doc
+	- [ ] [n] -> n-ésimo elemento
+	- [ ] [last()] -> último elemento
+	- [ ] [@attribute] -> elementos com o respetivo atributo 'attribute'
+	- [ ] [@*] -> todos os elementos com pelo menos 1 atributo
+	- [ ] [not(@*)] -> todos os elementos sem atributos
+	- [ ] [normalize-space(@nome)="bbb"] -> retira os espaços extra e reduz os varios espaços entre palavras para 1.
+	- [ ] *[count(*)=2] -> selecciona tudo que tenha 2 filhos
+
+//BBB | //CCC -> selecciona todos os BBB e CCC
+
+-- Exercício --
+
+- [x]  POEMA -- XPATH
+
+(a) //estrofe[last()]/verso[3]
+(b) //nome
+(c) //estrofe[2]/verso
+(d) //(nome|lugar)[starts-with(.,'L')]
+
+-- TPC -- 
+
+(d) - quantos pertencem a amares?  
+(e) - quantos referentes a castros?
+
+
+
+Tags:
+  PLC, PRI

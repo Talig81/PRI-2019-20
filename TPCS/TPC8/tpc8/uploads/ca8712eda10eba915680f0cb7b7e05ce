@@ -1,0 +1,40 @@
+grammar ListasMistasAtributes;
+@members{
+}
+
+
+//Lexer
+LPAREN : '[' ;
+RPAREN : ']' ;
+COMMA  : ',' ;
+WORD   : [a-zA-Z]+ ;
+NUM    : ('0'..'9')+ ; //notacao antlr
+WS     : [ \t\r\n]+ -> skip;
+
+//Parser
+list
+      : LPAREN content [0] {System.out.println("SOMA: " + $content.soma);} RPAREN
+
+      ;
+content [int bool] returns [int soma]
+      : item [$bool]
+      {
+        $soma += $item.val;
+      }
+      | item [$bool] COMMA content [$item.boolOut]
+      {
+        $soma = $item.val + $content.soma;
+      }
+      ;
+
+item  [int boolIn]
+      returns [int val, int boolOut]
+      : NUM  { if ($boolIn == 1) $val = Integer.parseInt($NUM.text);
+               else $val = 0;
+               $boolOut = $boolIn;
+               }
+      | WORD { $val = 0;
+               if ($boolIn == 0 && $WORD.text.equals("start")) $boolOut = 1;
+               else if ($boolIn == 1 && $WORD.text.equals("stop")) $boolOut = 0;
+               else $boolOut = $boolIn;}
+      ;

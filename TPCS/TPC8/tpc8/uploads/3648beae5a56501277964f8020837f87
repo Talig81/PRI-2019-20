@@ -1,0 +1,27 @@
+var mongoose = require('mongoose')
+
+mongoose.connect('mongodb://127.0.0.1:27017/filmesPRI', {useNewUrlParser: true, useUnifiedTopology: true})
+        .then(() => console.log('Mongo ready : ' + mongoose.connection.readyState))
+        .catch((erro => console.log('Mongo Error: ' + erro)))
+
+
+var filmeSchema = new mongoose.Schema({
+    title: String,
+    year: Number,
+    cast: Array,
+    genres: Array
+});
+
+var filmeModel = mongoose.model('filme', filmeSchema);
+
+var jcrMovie = new filmeModel({
+    title: 'Era uma vez em PRI...',
+    year: 2020,
+    cast: ["jcr", "aluno1", "aluno2"],
+    genres: ["Thriller", "Comédia"]
+});
+
+jcrMovie.save(function(erro, filme) {
+    if (erro) console.log('Movie insertion error: '+ erro)
+    else console.log('Movie inserted successfuly!')
+})

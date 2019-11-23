@@ -1,0 +1,28 @@
+Aula 7 - [PRI] - 4/11/2019
+
+- [ ] Query de inversão estrutural
+
+
+-- // Mongo  \\ --
+
+- [ ] use filmes
+
+- [ ] show collections
+
+- [ ] db.filmes.findOne()
+
+- [ ] db.filmes.aggregate([{$group: {_id: "$year", numFilmes: {$sum: 1}}}])
+
+- [ ] db.filmes.aggregate([{$group: {_id: "$year", numFilmes: {$sum: 1}}}, {$sort: {numFilmes: -1}}])
+
+- [ ] db.filmes.aggregate([{$group: {_id: "$year", numFilmes: {$sum: 1}}}, {$sort: {numFilmes: -1}}, {$limit: 5}])
+
+- [ ] db.filmes.aggregate([{$unwind: "$cast"}])
+
+- [ ] db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}}}])
+
+- [ ] db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}}}, {$sort: {numFilmes: -1}}])
+
+- [ ] db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}}}, {$sort: {numFilmes: -1}}, {$limit: 10}])
+
+- [ ] db.filmes.aggregate([{$unwind: "$cast"}, {$group: {_id: "$cast", numFilmes: {$sum: 1}, filmes: {$push: {title: "$title"}}}}, {$sort: {numFilmes: -1}}, {$limit: 10}])
