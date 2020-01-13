@@ -1,0 +1,9 @@
+mongoimport --db new --collection tipologias --file tipologias.json --jsonArray
+mongoimport --db new --collection publicacoes --file publicacoes.json --jsonArray
+
+Ex2
+
+a) 76 db.tipologias.find().count() após o mongo import da rota http://clav-api.dglab.gov.pt/api/tipologias
+b) 5 http://clav-api.dglab.gov.pt/api/tipologias/tip_fss/elementos 
+c) 12 http://clav-api.dglab.gov.pt/api/tipologias/tip_FA/intervencao/participante
+d) 2 http://clav-api.dglab.gov.pt/api/entidades/{id}/tipologias

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <keyname>Teste PRI 2020</keyname>
+        <title>Servidor API e Servidor Front</title>
+        <bdate>1-13-2020</bdate>
+        <edate>1-13-2020</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A67713</identifier>
+            <name>Manuel Maria Moreno</name>
+            <email>a67713@mail.alunos.uminho.pt</email>
+        </member>
+    </workteam>
+    <abstract>
+        <p>
+          No primeiro exercicio é pedido que se crie uma API de dados com o dataset existente disponibilizado pelo professor.
+          Antes de começar a criar o servidor é necessário tratar do dataset porque vem com erros como strings mal feitas e virgulas mal postas.
+          Depois de tratar o dataset, foi criada uma base de dados mongoDB e utilizando o comando "mongoimport --db new --collection publicacoes --file publicacoes.json --jsonArray"
+          importamos o dataset em json para a nossa base dados.
+        </p>
+        <p>
+            Para iniciar o projeto basta simplesmente correr o comando "npm i" seguido de um "npm start" e o servidor ira ficar a escuta na porta 3001
+        </p>
+        <p>
+            Por fim, começamos a fazer as rotas pedidas e utilizando o pacote mongoose, vamos a nossa base de dados fazer as queries.
+            De todas as queries a unica que deu mais dificuldade foi a do sort porque não podemos usar o distinct ao mesmo tempo que o sort utilizando o mongoose. De resto todas as queries foram ensinadas nas aulas por isso não se faz muitas alterações.</p>
+        <p>
+            Exercicio 2
+            Neste exercicio, começamos por fazer queries no postman para verificar como é disponibilizada a informação e utilizando umas queries em mongo conseguimos fazer a contagem muito facilmente
+            e para importarmos toda a informação usamos novamente o mongo import depois de ter posto to da informação em json
+            1)
+            a) Existem 76 tipologias catalogadas ( db.tipologias.find().count())
+            b) para saber a quantidade de tipologias foi necessario fazer o pedido a rota http://clav-api.dglab.gov.pt/api/tipologias/{id}/elementos  que nos deu o resultado de 5
+            c) utilizando a rota http://clav-api.dglab.gov.pt/api/tipologias/tip_FA/intervencao/participante sabemos que a resposta é 12
+            d) utilizando a rota 2 http://clav-api.dglab.gov.pt/api/entidades/ent_SEF/tipologias sabemos que so tem 2 tipologias
+            </p>
+            <p>
+                Professor como não consigo verificar se fica bem este XML adicionei o documento em txt "notas.txt" com o meu rascunho para melhor leitura e analise
+            </p>
+            <p>
+                Neste ultimo exercicio é suposto criamos um servidor que fornceça paginas web com a informação disponivel do CLAVE.
+                Infelizmente, devido a falta de tempo não foi possivel melhorar o seu design assim como a sua funcionalidade tendo só sido feito o minimo pedido.
+                Para correr o servidor basta utilizar o comando "npm i" seguido do "npm start" e o servidor ira ficar na porta 3000 a escuta.
+
+            </p>
+            <p>
+                Professor os links são exclusivamente nos ids das tipologias e nos ids das entidades.
+                Senão aparecer nenhuma entidade é porque a tipologia nao tem nenhuma.
+                Existe um botao voltar nas tipologias para voltar a pagina principale outro voltar nas entidades para voltar a respetiva tipologia
+            </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="../ficheiros/models/ficheiro.js">Modelo de dados (Schema) do Ficheiro</deliverable>
+
+        <deliverable path="pr.xml">Project Record - XML</deliverable>
+    </deliverables>
+</pr>

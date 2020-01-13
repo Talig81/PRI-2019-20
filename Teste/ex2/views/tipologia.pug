@@ -1,0 +1,57 @@
+extends layout
+
+block content
+    .w3-container-teal
+        .w3-card-4
+            header.w3-container
+            h2 Tipologia #{tipologia.sigla}
+        .w3-container
+            table.w3-table-all
+                h3 Descricao
+                tr
+                    th estado
+                    th sigla
+                    th designacao
+                tr
+                    td= tipologia.estado
+                    td= tipologia.sigla
+                    td= tipologia.designacao
+            table.w3-table-all
+                h3 Dono
+                tr
+                    th codigo
+                    th titulo
+                    th id
+                each d in tipologia.donos
+                    tr
+                        td= d.codigo
+                        td= d.titulo
+                        td= d.id
+            if (tipologia.elementos.length > 0)
+                table.w3-table-all
+                    h3 Entidades
+                    tr 
+                        th sigla
+                        th designacao
+                        th id
+                    each e in tipologia.elementos    
+                        tr
+                            td= e.sigla
+                            td= e.designacao
+                            td
+                                a(id=e.id href="http://localhost:3000/getEnt/"+e.id)= e.id
+            if (tipologia.participante.length > 0)
+                table.w3-table-all
+                    h3 Participantes
+                        tr
+                            th codigo
+                            th tipoPar
+                            th titulo
+                            th id
+                        each p in tipologia.participante
+                            tr
+                                td= p.codigo
+                                td= p.tipoPar
+                                td= p.titulo
+                                td= p.id
+            a(href="http://localhost:3000/") Voltar

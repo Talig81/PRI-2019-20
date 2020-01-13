@@ -1,0 +1,458 @@
+[
+    {
+        "estado": "Ativa",
+        "sigla": "AAC",
+        "designacao": "Autoridades Administrativas Civis",
+        "id": "tip_AAC"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AADR",
+        "designacao": "Assembleias de apuramento distrital de resultados",
+        "id": "tip_AADR"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AAGR",
+        "designacao": "Assembleias de apuramento geral dos resultados",
+        "id": "tip_AAGR"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ACE",
+        "designacao": "Administração Central do Estado",
+        "id": "tip_ACE"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ACES",
+        "designacao": "Agrupamentos de Centros de Saúde",
+        "id": "tip_ACES"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AF",
+        "designacao": "Assembleias de Freguesia",
+        "id": "tip_AF"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "APb",
+        "designacao": "Associações Públicas",
+        "id": "tip_APb"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AJ",
+        "designacao": "Autoridades judiciárias",
+        "id": "tip_AJ"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AL",
+        "designacao": "Autarquias Locais",
+        "id": "tip_AL"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AM",
+        "designacao": "Assembleias Municipais",
+        "id": "tip_AM"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AP",
+        "designacao": "Administração Pública",
+        "id": "tip_AP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AS",
+        "designacao": "Autoridades de Saúde",
+        "id": "tip_AS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ASF",
+        "designacao": "Autoridades de supervisão e fiscalização",
+        "id": "tip_ASF"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "AV",
+        "designacao": "Assembleias de voto",
+        "id": "tip_AV"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "CA",
+        "designacao": "Centros de Arbitragem",
+        "id": "tip_CA"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "CH",
+        "designacao": "Comissões de Heráldica",
+        "id": "tip_CH"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "CN",
+        "designacao": "Cartórios Notariais",
+        "id": "tip_CN"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "Cns",
+        "designacao": "Consulados",
+        "id": "tip_Cns"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "CPCJ",
+        "designacao": "Comissões de Proteção de Crianças e Jovens",
+        "id": "tip_CPCJ"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "CT",
+        "designacao": "Comissões Técnicas de Normalização",
+        "id": "tip_CT"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EAARPNC",
+        "designacao": "Entidades com autonomia administrativa e receitas próprias não consignadas",
+        "id": "tip_EAARPNC"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EC",
+        "designacao": "Equipas cinotécnicas",
+        "id": "tip_EC"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EAI",
+        "designacao": "Entidades administrativas independentes",
+        "id": "tip_EAI"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ECM",
+        "designacao": "Entidades com competência de monitorização",
+        "id": "tip_ECM"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ECP",
+        "designacao": "Entidades com capacidade pericial",
+        "id": "tip_ECP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ECS",
+        "designacao": "Entidades com competência sancionatória",
+        "id": "tip_ECS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ECV",
+        "designacao": "Entidades com competência de visita",
+        "id": "tip_ECV"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ED",
+        "designacao": "Entidades depositantes",
+        "id": "tip_ED"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EDA",
+        "designacao": "Entidades detentoras de animais",
+        "id": "tip_EDA"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EDIE",
+        "designacao": "Entidades detentoras de infrestruturas estratégicas",
+        "id": "tip_EDIE"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EE",
+        "designacao": "Entidades editoriais",
+        "id": "tip_EE"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EFD",
+        "designacao": "Entidades com funções delegadas",
+        "id": "tip_EFD"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EGAG",
+        "designacao": "Entidades gestoras de água",
+        "id": "tip_EGAG"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EGAP",
+        "designacao": "Entidades gestoras de apoios",
+        "id": "tip_EGAP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "Emb",
+        "designacao": "Embaixadas",
+        "id": "tip_Emb"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ER",
+        "designacao": "Entidades reguladoras",
+        "id": "tip_ER"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ES",
+        "designacao": "Estabelecimentos de ensino (EstE + IES)",
+        "id": "tip_ES"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ESPS",
+        "designacao": "Entidades do sistema de proteção na saúde",
+        "id": "tip_ESPS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "EstE",
+        "designacao": "Estabelecimentos escolares",
+        "id": "tip_EstE"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "FA",
+        "designacao": "Forças Armadas",
+        "id": "tip_FA"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "FSS",
+        "designacao": "Forças e serviços de segurança",
+        "id": "tip_FSS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "Fnd",
+        "designacao": "Fundações",
+        "id": "tip_Fnd"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "Gov",
+        "designacao": "Governo",
+        "id": "tip_Gov"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "HH",
+        "designacao": "Hospitais",
+        "id": "tip_HH"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "IP",
+        "designacao": "Institutos Públicos",
+        "id": "tip_IP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "IES",
+        "designacao": "Instituições do Ensino Superior",
+        "id": "tip_IES"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "IPSS",
+        "designacao": "Instituições Particulares de Solidariedade Social",
+        "id": "tip_IPSS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "JP",
+        "designacao": "Julgados de Paz",
+        "id": "tip_JP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "LL",
+        "designacao": "Laboratórios locais",
+        "id": "tip_LL"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "Museus",
+        "designacao": "Museus",
+        "id": "tip_Museus"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "OACDOP",
+        "designacao": "Organizações da Administração com competências delegadas em ordens profissionais",
+        "id": "tip_OACDOP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "OGCT",
+        "designacao": "Organizações Gestoras de Comissão Técnica",
+        "id": "tip_OGCT"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ONS",
+        "designacao": "Organizações de normalização setorial",
+        "id": "tip_ONS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "OP",
+        "designacao": "Ordens profissionais",
+        "id": "tip_OP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "OPC",
+        "designacao": "Órgãos de polícia criminal",
+        "id": "tip_OPC"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "OSJ",
+        "designacao": "Órgãos do sistema judiciário",
+        "id": "tip_OSJ"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "PMun",
+        "designacao": "Polícias Municipais",
+        "id": "tip_PMun"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "SMT",
+        "designacao": "Serviços de Medicina do Trabalho",
+        "id": "tip_SMT"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "SPE",
+        "designacao": "Setor Público Empresarial",
+        "id": "tip_SPE"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "TComarca",
+        "designacao": "Tribunais de Comarca",
+        "id": "tip_TComarca"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "TEP",
+        "designacao": "Tribunais de Execução de Penas",
+        "id": "tip_TEP"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "TFM",
+        "designacao": "Tribunais de Família e Menores",
+        "id": "tip_TFM"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "TIC",
+        "designacao": "Tribunais de Instrução Criminal",
+        "id": "tip_TIC"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "TR",
+        "designacao": "Tribunais da Relação",
+        "id": "tip_TR"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "Trb",
+        "designacao": "Tribunais",
+        "id": "tip_Trb"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "UI",
+        "designacao": "Unidades de Investigação",
+        "id": "tip_UI"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "UL",
+        "designacao": "Unidades Laboratoriais",
+        "id": "tip_UL"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "UPCS",
+        "designacao": "Unidades Prestadoras de Cuidados de Saúde",
+        "id": "tip_UPCS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "CCDR",
+        "designacao": "Comissões de Coordenação do Desenvolvimento Regional",
+        "id": "tip_CCDR"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "FA-M",
+        "designacao": "Forças Armadas – Marinha",
+        "id": "tip_FA-M"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "FA-E",
+        "designacao": "Forças Armadas – Exército",
+        "id": "tip_FA-E"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "FA-FA",
+        "designacao": "Forças Armadas – Força Aérea",
+        "id": "tip_FA-FA"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "SEN",
+        "designacao": "Sistema Estatístico Nacional",
+        "id": "tip_SEN"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "SG",
+        "designacao": "Secretarias Gerais",
+        "id": "tip_SG"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "ARS",
+        "designacao": "Administrações Regionais de Saúde",
+        "id": "tip_ARS"
+    },
+    {
+        "estado": "Ativa",
+        "sigla": "DRAP",
+        "designacao": "Direções Regionais de Agricultura e Pescas",
+        "id": "tip_DRAP"
+    }
+]
