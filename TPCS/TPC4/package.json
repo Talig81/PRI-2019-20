@@ -12,7 +12,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "jsonfile": "^5.0.0",
-    "nanoid": "^2.1.6",
+    "nanoid": "^3.1.31",
     "url": "^0.11.0"
   }
 }
